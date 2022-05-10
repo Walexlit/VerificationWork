@@ -39,3 +39,13 @@ while (i < array.Length)                                                     // 
     i++;
 }
 array = buffArr;                                                             // меняем значения основного массива на буферный 
+
+
+void PrintArray(string[] arr)                                                // с помощью этого метода выводим массив на консоль
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($" {arr[i]}");
+    }
+}
+PrintArray(array);
